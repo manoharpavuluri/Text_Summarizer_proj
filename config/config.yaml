@@ -1,0 +1,23 @@
+# Project configuration template for Text Summarizer
+# Fill in the values as needed for your experiments or deployment
+
+# Example: Model configuration
+model:
+  name: "facebook/bart-large-cnn"  # Pretrained model name or path
+  max_length: 200                   # Maximum length of summary
+  min_length: 30                    # Minimum length of summary
+  do_sample: false                  # Use sampling for generation
+
+# Example: Data configuration
+# data:
+#   train_path: "data/train.csv"
+#   test_path: "data/test.csv"
+#   text_column: "article"
+#   summary_column: "summary"
+
+# Example: Logging configuration
+# logging:
+#   log_dir: "logs/"
+#   log_level: "INFO"
+
+# Add more configuration sections as needed

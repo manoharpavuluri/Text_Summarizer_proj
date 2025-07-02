@@ -1,8 +1,9 @@
+# Core NLP and ML libraries
 transformers
 transformers[sentencepiece]
 datasets
-sacrebleu 
-rouge_score 
+sacrebleu
+rouge_score
 py7zr
 pandas
 nltk
@@ -10,12 +11,22 @@ tqdm
 PyYAML
 matplotlib
 torch
+
+# Jupyter and research
 notebook
+
+# AWS and S3 support
 boto3
 mypy-boto3-s3
+
+# Utility and configuration
 python-box==6.0.2
 ensure==1.0.2
+
+# Web API
 fastapi==0.78.0
 uvicorn==0.18.3
 Jinja2==3.1.2
+
+# Local package (editable install)
 -e .

@@ -1,0 +1,15 @@
+# Parameter configuration template for Text Summarizer
+# Fill in the values as needed for your experiments
+
+# Example: Training parameters
+# batch_size: 8
+# num_epochs: 3
+# learning_rate: 2e-5
+# weight_decay: 0.01
+# gradient_accumulation_steps: 2
+
+# Example: Evaluation parameters
+# eval_batch_size: 8
+# metrics: ["rouge", "bleu"]
+
+# Add more parameter sections as needed
